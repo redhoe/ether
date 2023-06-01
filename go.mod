@@ -1,4 +1,4 @@
-module github.com/pdwallet/ether
+module github.com/redhoe/ether
 
 go 1.16
 
