@@ -20,7 +20,7 @@ func init() {
 
 func TestErc20Abi_Method(t *testing.T) {
 
-	//b, _ := Erc20Abi.BalanceOf(common.HexToAddress("0x06eea78c7722d79b5B4B4681cB0E5798146f193d"))
+	//b, _ := Erc20Abi.BalanceOf(httpCommon.HexToAddress("0x06eea78c7722d79b5B4B4681cB0E5798146f193d"))
 	//t.Log(hexutil.Encode(b))
 
 	_, err := IErc20Abi.abi.EventByID(common.HexToHash("0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"))
@@ -39,9 +39,9 @@ func TestErc20_Name(t *testing.T) {
 	t.Log(e.Decimals(common.HexToAddress("0x0000000000095413afC295d19EDeb1Ad7B71c952")))
 
 	//t.Log(e.Allowance(
-	//	common.HexToAddress("0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"),
-	//	common.HexToAddress("0x06eea78c7722d79b5B4B4681cB0E5798146f193d"),
-	//	common.HexToAddress("0xa1be04c6F760D887Fd83570734c8B06F77B8826e"),
+	//	httpCommon.HexToAddress("0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"),
+	//	httpCommon.HexToAddress("0x06eea78c7722d79b5B4B4681cB0E5798146f193d"),
+	//	httpCommon.HexToAddress("0xa1be04c6F760D887Fd83570734c8B06F77B8826e"),
 	//))
 }
 

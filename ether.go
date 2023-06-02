@@ -347,10 +347,10 @@ func (c *Engine) PrivateKeyToAddress(privateKey string) (*common.Address, error)
 	return &addr, nil
 }
 
-//func (c *Engine) PrivateSign(hash common.Hash, privateKey string) (common.Hash, error) {
+//func (c *Engine) PrivateSign(hash httpCommon.Hash, privateKey string) (httpCommon.Hash, error) {
 //	privKey, err := c.hexToEcdsaPrivateKey(privateKey)
 //	if err != nil {
-//		return common.Hash{}, err
+//		return httpCommon.Hash{}, err
 //	}
 //	privKey.Sign()
 //

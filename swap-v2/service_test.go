@@ -15,13 +15,13 @@ func init() {
 		panic(err)
 	}
 
-	//factory := NewFactoryContract(engine, common.HexToAddress("0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"))
+	//factory := NewFactoryContract(engine, httpCommon.HexToAddress("0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"))
 	//_serv, err := NewServiceWithFactory(engine,
 	//	factory,
 	//	router2,
 	//	//tokenA,
 	//	tokenB,
-	//	common.HexToAddress("0xD92FC79A4A713cEB005FD4D6901D527F6C62112A"),
+	//	httpCommon.HexToAddress("0xD92FC79A4A713cEB005FD4D6901D527F6C62112A"),
 	//)
 	//if err != nil {
 	//	panic(err)
@@ -32,7 +32,7 @@ func init() {
 func TestService_NewServiceForTokenAndWETH(t *testing.T) {
 	// 0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45 goerli swapRouter2
 	tokenA := common.HexToAddress("0xdAC17F958D2ee523a2206206994597C13D831ec7")
-	//tokenB := common.HexToAddress("")
+	//tokenB := httpCommon.HexToAddress("")
 	//serv.MustFactory().GetPair(tokenA, tokenB)
 	//serv.MustFactory().
 
@@ -49,7 +49,7 @@ func TestService_NewServiceForTokenAndWETH(t *testing.T) {
 
 func TestNewServiceWithPairAndRouter(t *testing.T) {
 	// 0x4E99615101cCBB83A462dC4DE2bc1362EF1365e5 uni
-	//serv := NewServiceWithPairAndRouter(engine, common.HexToAddress("0x4E99615101cCBB83A462dC4DE2bc1362EF1365e5"), router2)
+	//serv := NewServiceWithPairAndRouter(engine, httpCommon.HexToAddress("0x4E99615101cCBB83A462dC4DE2bc1362EF1365e5"), router2)
 	t.Log(serv.Symbol())
 	_price, err := serv.Price()
 	t.Log(_price.ToDecimal().String(), err)
