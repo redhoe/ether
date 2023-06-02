@@ -3,8 +3,8 @@ package erc20
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/pdwallet/ether"
 	"github.com/pkg/errors"
+	"github.com/redhoe/ether"
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 	"testing"

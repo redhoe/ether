@@ -3,8 +3,8 @@ package swap_v2
 import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/pdwallet/ether/erc20"
 	"github.com/pkg/errors"
+	"github.com/redhoe/ether/erc20"
 	"math/big"
 	"strings"
 )

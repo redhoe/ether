@@ -4,8 +4,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/pdwallet/ether"
-	"github.com/pdwallet/ether/erc20"
+	"github.com/redhoe/ether"
+	"github.com/redhoe/ether/erc20"
 	"math/big"
 )
 

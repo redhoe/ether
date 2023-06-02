@@ -3,7 +3,7 @@ package erc20
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/pdwallet/ether"
+	"github.com/redhoe/ether"
 	"math/big"
 )
 

@@ -3,7 +3,7 @@ package erc721
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/pdwallet/ether"
+	"github.com/redhoe/ether"
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 	"math/big"
